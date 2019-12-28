@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab|Shadows+Into+Light|Waiting+for+the+Sunrise|Reenie+Beanie&display=swap"
+        rel="stylesheet">
+    <title>timzerDev</title>
+    <script src="https://kit.fontawesome.com/84b99a6b4b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav id="mainNavbar" class="navbar navbar-light navbar-expand-md py-0 fixed-top">
+        <a href="/home" class="navbar-brand"><img src="images/favicon-32x32.png" alt=""> timzerDev</a>
+        <button class="custom-toggler navbar-toggler" data-toggle="collapse" data-target="#navLinks"
+            aria-label="Toggle navigation">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="/home/cv.html" class="nav-link">CV</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/home/index.html/#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jumbotron Section -->
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <p class="lead text-muted">"It ain't much, but it's honest work"</p>
+        </div>
+    </section>
+
+    <!-- Album Section -->
+    <div class="album">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="images/colorgame.png" class="card-img-top" alt="colorgame-image">
+                        <div class="card-body">
+                            <h5 class="card-title">The Color Game</h5>
+                            <p class="card-text">Check your RGB color skills (JavaScript).</p>
+                            <a href="colorgame/colorGame.html" class="btn btn-primary">Try it!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="images/todo.png" class="card-img-top" alt="todo-image">
+                        <div class="card-body">
+                            <h5 class="card-title">The ToDo List</h5>
+                            <p class="card-text">Make a to-do list (JavaScript).</p>
+                            <a href="todo/todo.html" class="btn btn-primary">Try it!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="images/circles.png" class="card-img-top" alt="circles-image">
+                        <div class="card-body">
+                            <h5 class="card-title">Key Tap Circles</h5>
+                            <p class="card-text">Make animated circles and annoying sounds by tapping the keyboard (JavaScript).</p>
+                            <a href="circles/circles.html" class="btn btn-primary">Try it!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="images/dice.png" class="card-img-top" alt="dice-image">
+                        <div class="card-body">
+                            <h5 class="card-title">The Dice Game</h5>
+                            <p class="card-text">Roll the dices to settle a random winner (JavaScript).</p>
+                            <a href="dice/index.html" class="btn btn-primary">Try it!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="images/drum.png" class="card-img-top" alt="drum-image">
+                        <div class="card-body">
+                            <h5 class="card-title">The Drum Kit</h5>
+                            <p class="card-text">Make some drum noise (JavaScript).</p>
+                            <a href="drum-kit/index.html" class="btn btn-primary">Try it!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="images/simon.png" class="card-img-top" alt="simon-image">
+                        <div class="card-body">
+                            <h5 class="card-title">The Simon Game</h5>
+                            <p class="card-text">Follow the right sequence in this classic memory game (JavaScript).</p>
+                            <a href="simon/index.html" class="btn btn-primary">Try it!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <section id="footer">
+            <div>
+                <p class="my-1">© 2019 - 2020 Tim Lundkvist @ timzerDev.</p>
+            </div>
+        </section>
+
+        <!-- Bootstrap Scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>

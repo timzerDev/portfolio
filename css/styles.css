@@ -1,0 +1,91 @@
+html, body {
+    color: #202020;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    text-align: center;
+    scroll-behavior: smooth;
+    background-image: url("../images/cool-background.png");
+    
+}
+
+h2 {
+    color: #2eacff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3, a {
+    color: #58bcff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+    color: #58bcff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+/* Navbar */
+
+.navbar-brand {
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-weight: 700;
+}
+
+#mainNavbar .navbar-brand{
+    color: #2eacff;
+}
+
+#mainNavbar{
+    background-color: #252525;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: #2eacff;
+}
+
+#mainNavbar .nav-link:hover{
+    background-color: #2eacff;
+    color: #252525;
+    transition: 0.5s;
+}
+
+#mainNavbar .navbar-toggler{
+    width: 50px;
+    height: 36px;
+    border: none;
+}
+
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #2eacff;
+    margin: 3px auto;
+}
+
+/* Jumbotron Section */
+
+.jumbotron {
+    background: none;
+    padding-top: 116px;
+}
+
+
+/* Footer section */
+
+#footer {
+    text-align: center;
+    background-color: #252525;
+    color: #2eacff;
+    padding: 2.5rem;
+    font-size: 0.85rem;
+}
+
+#footer a {
+    color: #bbf5ff;
+}
