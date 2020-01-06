@@ -42,6 +42,7 @@ p {
     background-color: #252525;
     font-size: 1.5rem;
     font-weight: 100;
+    text-align: left;
 }
 
 #mainNavbar .nav-link {
